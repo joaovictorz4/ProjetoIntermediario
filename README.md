@@ -12,6 +12,7 @@ Retorna informações sobre os nodes (locais do jogo)
 
 #### Atributos
 | campo          | tipo   | descrição  |
+| --             | --     | --         |
 | _id            | String | Identificador único do recurso |
 | nome           | String | nome do local  |
 | regiao         | String | região do node    |
@@ -48,6 +49,7 @@ Retorna informações sobre os mobs ( monstros)
 
 #### Atributos
 | campo          | tipo   | descrição  |
+| --             | --     | --         |
 | _id            | String | Identificador único do recurso |
 | nome           | String | nome do mob  |
 | nivel          | Number | nivel do mob    |
@@ -85,6 +87,7 @@ Retorna informações sobre as lifeskill ( habilidades de vida)
 
 #### Atributos
 | campo          | tipo   | descrição  |
+| --             | --     | --         |
 | _id            | String | Identificador único do recurso |
 | nome           | String | nome da lifeskill  |
 | descricao      | String | ultima da lifeskill   |
@@ -119,6 +122,7 @@ Retorna informações sobre os items
 
 #### Atributos
 | campo          | tipo   | descrição  |
+| --             | --     | --         |
 | _id            | String | Identificador único do recurso |
 | nome           | String | nome do item |
 | preco          | Number | preco de compra do item    |
@@ -155,6 +159,7 @@ Retorna informações sobre as classes do jogo
 
 #### Atributos
 | campo          | tipo   | descrição  |
+| --             | --     | --         |
 | _id            | String | Identificador único do recurso |
 | nome           | String | nome do personagem |
 | nivel          | Number | nivel do personagem   |
