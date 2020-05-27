@@ -1,17 +1,26 @@
 {
   "name": "projetointermediario",
   "version": "1.0.0",
-  "description": "Projeto intermediario realizado em 05/2020",
   "main": "index.js",
-  "scripts": {
-    "start": "nodemon index.js",
-    "install": "npm install express nodemon mongoose"
-  },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
     "mongoose": "^5.9.16",
     "nodemon": "^2.0.4"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon index.js",
+    "install": "npm install express nodemon mongoose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaovictorz4/ProjetoIntermediario.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joaovictorz4/ProjetoIntermediario/issues"
+  },
+  "homepage": "https://github.com/joaovictorz4/ProjetoIntermediario#readme",
+  "description": ""
 }
