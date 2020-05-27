@@ -37,8 +37,6 @@ Retorna informações sobre os nodes (locais do jogo)
 | `?limit=<numero>` | Limita a quantidade de dados de uma requisição |
 ---------------------------------------------------------------------------------------
 
-## Endpoints
-
 ### Mob
 
 #### Descrição
@@ -75,8 +73,6 @@ Retorna informações sobre os mobs ( monstros)
 | `?limit=<numero>` | Limita a quantidade de dados de uma requisição |
 ---------------------------------------------------------------------------------------
 
-## Endpoints
-
 ### LifeSkill
 
 #### Descrição
@@ -109,8 +105,6 @@ Retorna informações sobre as lifeskill ( habilidades de vida)
 | `?limit=<numero>` | Limita a quantidade de dados de uma requisição |
 
 ---------------------------------------------------------------------------------------
-
-## Endpoints
 
 ### Item
 
@@ -146,8 +140,6 @@ Retorna informações sobre os items
 | `?limit=<numero>` | Limita a quantidade de dados de uma requisição |
 
 ---------------------------------------------------------------------------------------
-
-## Endpoints
 
 ### Classe
 
