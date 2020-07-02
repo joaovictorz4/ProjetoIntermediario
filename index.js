@@ -1,5 +1,7 @@
 const express = require('express')
 const app = express()
+var cors = require('cors');
+app.use(cors());
 
 const routes = {
     node : require("./api/routers/node"),
@@ -10,11 +12,11 @@ const routes = {
 }
 
 
-app.use("/node", routes.node)
-app.use("/mob", routes.mob)
-app.use("/lifeskill", routes.lifeskill)
-app.use("/item", routes.item)
-app.use("/classe", routes.classe)
+app.use("/api/node", routes.node)
+app.use("/api/mob", routes.mob)
+app.use("/api/lifeskill", routes.lifeskill)
+app.use("/api/item", routes.item)
+app.use("/api/classe", routes.classe)
 
 
 var port = "9090";

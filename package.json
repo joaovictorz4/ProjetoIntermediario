@@ -3,14 +3,16 @@
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1",
-    "mongoose": "^5.9.16",
+    "mongoose": "^5.9.19",
     "nodemon": "^2.0.4"
   },
   "devDependencies": {},
   "scripts": {
     "start": "nodemon index.js",
-    "install": "npm install express nodemon mongoose"
+    "install": "npm install express nodemon mongoose",
+    "build": "react-scripts build"
   },
   "repository": {
     "type": "git",
